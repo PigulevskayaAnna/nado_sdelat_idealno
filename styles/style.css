@@ -45,6 +45,8 @@ body::before {
   z-index: 3;
   padding-top: 60px;
   padding-left: 6px;
+  max-width: 961px;
+  margin: auto;
 }
 
 .page__heading:hover {
@@ -71,13 +73,8 @@ body::before {
   text-transform: none;
   display: none;
   bottom: 130px;
-  right: 20px;
+  left: 514px;
   border-bottom: 15px solid #000;
-
-}
-
-.page__heading span:last-child::after {
-  content: '*';
 }
 
 
