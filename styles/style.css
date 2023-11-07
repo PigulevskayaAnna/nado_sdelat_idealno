@@ -45,8 +45,15 @@ body::before {
   z-index: 3;
   padding-top: 60px;
   padding-left: 6px;
-  max-width: 961px;
+
   margin: auto;
+}
+
+.page__heading-caption {
+  max-width: 961px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .page__heading:hover {
@@ -73,7 +80,7 @@ body::before {
   text-transform: none;
   display: none;
   bottom: 130px;
-  left: 514px;
+  right: 20px;
   border-bottom: 15px solid #000;
   border-bottom-left-radius: 23px;
   border-bottom-right-radius: 23px;
